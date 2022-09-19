@@ -1,4 +1,4 @@
-12FROM python:slim
+FROM python:slim
 RUN apt-get update && apt-get -y upgrade \
   && apt-get install -y --no-install-recommends \
     git \
